@@ -1,0 +1,46 @@
+/*==========================================================================
+#title            : WEBSITE SHOES
+#description      : Website from PSD
+#author           : CAILLOT Brieuc
+#date             : 20161213
+#version          : Constantly on progress
+#usage            : CSS
+#notes            : Only working on search engine
+============================================================================*/
+
+
+@font-face {
+	font-family: police;
+	src: url(../police/DINNextLTPro-MediumCond.otf);
+}
+html {
+	font-family: police;
+	background: 100% #c8cfdc;
+}
+
+body{
+	background: #fff;
+	margin: 50px;
+	padding: 20px;
+}
+
+#header .leftheader {
+	background: url(../images/logo.png) no-repeat;
+	height: 13%;
+	width: 50%;
+}
+
+#header .leftheader ul{
+	float: left;
+	margin-left: 15px;
+	
+}
+
+#header .leftheader ul li {
+	float: left;
+	display: inline;
+	list-style-type: none;
+	margin: 0px 20px 0px 26px;
+}
+
+
