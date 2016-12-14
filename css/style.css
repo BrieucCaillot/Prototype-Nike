@@ -24,23 +24,52 @@ body{
 	padding: 20px;
 }
 
-#header .leftheader {
-	background: url(../images/logo.png) no-repeat;
+/* HEADER */
+
+
+	/* LEFT HEADER */
+
+#header #leftheader {
 	height: 13%;
 	width: 50%;
+	background: url(../images/header/logo.png) no-repeat;
 }
 
-#header .leftheader ul{
+#header #leftheader ul{
 	float: left;
 	margin-left: 15px;
+	color: #414141;
 	
 }
 
-#header .leftheader ul li {
+#header #leftheader ul li {
 	float: left;
 	display: inline;
 	list-style-type: none;
 	margin: 0px 20px 0px 26px;
+}
+
+	/* RIGHT HEADER */
+
+#header #rightheader {
+	color: #414141;
+	position: absolute;
+	top: 13%;
+	left: 70%;;
+}
+
+#header #rightheader ul li {
+	list-style-type: none;
+	display: inline;
+	margin: 35px 33px;
+}
+
+#header #rightheader ul:first-child {
+	background: url(../images/header/loupe.png) no-repeat;
+	postion: absolute;
+	top: 3%;
+	left: 71%;
+	height: 24px;
 }
 
 
