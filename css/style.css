@@ -54,22 +54,19 @@ body{
 #header #rightheader {
 	color: #414141;
 	position: absolute;
-	top: 13%;
-	left: 70%;;
+	top: 10%;
+	left: 68%;;
 }
 
 #header #rightheader ul li {
 	list-style-type: none;
 	display: inline;
-	margin: 35px 33px;
+	margin: 6px 31px;
 }
 
-#header #rightheader ul:first-child {
-	background: url(../images/header/loupe.png) no-repeat;
-	postion: absolute;
-	top: 3%;
-	left: 71%;
-	height: 24px;
+#header #rightheader ul:first-child img {
+	padding: 0px 14px;
 }
+
 
 
