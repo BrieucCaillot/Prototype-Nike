@@ -29,44 +29,48 @@ body{
 
 	/* LEFT HEADER */
 
-#header #leftheader {
-	height: 13%;
-	width: 50%;
+#header {
+	height: 28%;
+	width: 100%;
 	background: url(../images/header/logo.png) no-repeat;
 }
 
-#header #leftheader ul{
+#header ul{
 	float: left;
+	width: 100%;
 	margin-left: 15px;
 	color: #414141;
-	
 }
 
-#header #leftheader ul li {
-	float: left;
+#header ul li {
 	display: inline;
+	float: left;
 	list-style-type: none;
 	margin: 0px 20px 0px 26px;
 }
 
-	/* RIGHT HEADER */
-
-#header #rightheader {
-	color: #414141;
-	position: absolute;
-	top: 10%;
-	left: 68%;;
+#header ul li:hover:nth-child(-n+5) {
+	color: #0089cf;
+	border-bottom: 3px solid #0089cf;
+	border-width: 3px 30px;
+	padding-bottom: 2%;
 }
 
-#header #rightheader ul li {
-	list-style-type: none;
-	display: inline;
-	margin: 6px 31px;
+
+#header ul li:nth-child(5) {
+	margin-right: 32.5%;
 }
 
-#header #rightheader ul:first-child img {
-	padding: 0px 14px;
+#header ul li:nth-child(n+6) img {
+	padding-right: 7px;;
 }
+
+#header ul li:nth-child(6) {
+	margin-bottom: 30px;
+}
+
+
+
 
 
 
