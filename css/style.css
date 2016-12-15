@@ -15,13 +15,15 @@
 }
 html {
 	font-family: police;
-	background: 100% #c8cfdc;
+	background: 100% 100% #c8cfdc;
+	position: relative;
 }
 
 body{
 	background: #fff;
 	margin: 50px;
 	padding: 20px;
+	position: relative;
 }
 
 /* HEADER */
@@ -30,9 +32,9 @@ body{
 	/* LEFT HEADER */
 
 #header {
-	height: 28%;
+	height: 40%;
 	width: 100%;
-	background: url(../images/header/logo.png) no-repeat;
+	background: url(../images/firstbloc/header/logo.png) no-repeat;
 }
 
 #header ul{
@@ -56,18 +58,76 @@ body{
 	padding-bottom: 2%;
 }
 
-
 #header ul li:nth-child(5) {
-	margin-right: 32.5%;
+	margin-right: 28em;
 }
 
 #header ul li:nth-child(n+6) img {
 	padding-right: 7px;;
 }
 
-#header ul li:nth-child(6) {
-	margin-bottom: 30px;
+#container {
+	background: url(../images/firstbloc/container/wish.png) no-repeat;
+	width: 20em;;
+	height: 26em;;
+	position: absolute;
+	top: 10em;
+	left: 55em;
 }
+
+#viewshoes {
+	position: absolute;
+	top: 17.5em;
+	left: 8.5em;
+	background: url(../images/firstbloc/container/viewshoes1.png) no-repeat;
+	width: 40em;
+	height: 19em;
+}
+
+#container #text p {
+	color: #7e7e7e;
+
+}
+
+#container #text {
+	padding-top: 5em;
+}
+
+#container #text h2{
+	padding-bottom: 0.1em;
+}
+
+#container #text h1{
+	padding-left: 3em;;
+	position: absolute;
+	top: 3em;
+	left: 0em
+}
+
+#container #shoes1 {
+	background: url(../images/firstbloc/container/firstshoes.png) no-repeat;
+	width: 5em;
+	height: 6em;
+}
+
+#container #shoes2 {
+	background: url(../images/firstbloc/container/secondshoes.png) no-repeat;
+	width: 5em;
+	height: 6em;
+	position: absolute;
+	top: 15.22em;
+	left: 5.7em
+}
+
+#container #size {
+	position: absolute;
+	top: 27.5em;
+	font-family: roboto;
+	font-size: 12px;
+	color: #7e7e7e;
+	opacity: 0.5;
+}
+
 
 
 
