@@ -128,7 +128,31 @@ body{
 	opacity: 0.5;
 }
 
+.dropdown .dropbtn {
+	position: absolute;
+	top: 21em;
+	font-family: police;
+    background-color: #fff;
+    color: #7E7E7E;
+    border: 1px solid #e4e4e4;
+    padding: 16px;
+    font-size: 18px;
+    width: 7em;
+    padding-right: 4em;
+}
 
+.cartbtn {
+	position: absolute;
+	top: 21em;
+	left: 7.6em;
+	font-family: police;
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #e4e4e4;
+    padding: 16px;
+    font-size: 18px;
+    width: 7em;
+}
 
 
 
