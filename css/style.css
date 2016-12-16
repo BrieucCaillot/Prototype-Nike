@@ -14,16 +14,17 @@
 	src: url(../police/DINNextLTPro-MediumCond.otf);
 }
 html {
+	position: relative;
 	font-family: police;
 	background: 100% 100% #c8cfdc;
-	position: relative;
 }
 
 body{
-	background: #fff;
-	margin: 50px;
 	padding: 20px;
+	margin: 50px;
+	background: #fff;
 	position: relative;
+	height: 200em;
 }
 
 /* HEADER */
@@ -153,6 +154,81 @@ body{
     font-size: 18px;
     width: 7em;
 }
+
+#secondblock {
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-top: -35em;
+}
+
+#secondblock {
+	background: url(../images/secondblock/background.png) no-repeat;
+	background-size: 100% 100%;
+	height: 40em;
+}
+
+#secondblock .textsecondblock {
+	width: 30em;
+	margin-top: 15.6em;
+	height: 8em;
+}
+
+#secondblock .textsecondblock h1 {
+	font-size: 26px;
+	padding-left: 2.2em;
+}
+
+#secondblock .textsecondblock p {
+	padding-left: 3.7em;
+	font-family: roboto;
+	font-size: 15px;
+	line-height: 1.8;
+}
+
+#thirdblock .textthirdblockleft {
+	float: left;
+	height: 40em;
+	width: 26em;
+	margin: 11em 0px 0px 3em;;
+}
+#thirdblock .textthirdblockleft p {
+	color: #7E7E7E;
+}
+
+#thirdblock .textthirdblockleft p:nth-child(1) {
+	margin-bottom: 0.25em;
+}
+
+#thirdblock .textthirdblockleft h1 {
+	color: #333333;
+	margin: 0;
+}
+
+#thirdblock .textthirdblockleft p:nth-child(3) {
+	font-family: roboto;
+	line-height: 1.8;
+	margin-bottom: 3em;
+}
+
+#thirdblock .textthirdblockleft p:nth-child(4) {
+	margin-bottom: 1.8em;
+}
+
+#thirdblock .textthirdblockleft h2 {
+	margin-bottom: 0;
+	color: #333333;
+}
+
+#thirdblock .textthirdblockleft p:nth-child(n+5) {
+	margin-top: 2;
+	font-family: roboto;
+}
+
+
+
 
 
 
