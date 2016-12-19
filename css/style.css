@@ -66,27 +66,32 @@ body {
 	color: #0089cf;
 }
 
-#firstblock #header ul li:nth-child(5) {
-	margin-right: 29.3em;
+#firstblock #header ul li:nth-child(n+6) {
+	float: right;
+	text-align: left;
 }
 
 #firstblock #header ul li:nth-child(n+6) img {
 	padding-right: 7px;;
 }
 
+#firstblock #header ul li:nth-child(6) {
+	padding-right: 3em
+}
+
 #firstblock #container {
 	width: 20em;
 	height: 27em;
 	position: absolute;
-	top: 10.5em;
-	left: 55em;
+	top: 6.2%;
+	right: 11%;
 }
 
 #firstblock #container #wish {
 	background: url(../images/firstblock/container/wish.png) no-repeat;
 	background-size: 100% 100%;
 	width: 3em;
-	height: 3em
+	height: 3em;
 }
 
 #firstblock #container #wish:hover {
@@ -98,8 +103,8 @@ body {
 
 #firstblock #viewshoes {
 	position: absolute;
-	top: 17.5em;
-	left: 8.5em;
+	top: 10%;
+	left: 11%;
 	background: url(../images/firstblock/container/viewshoes1.png) no-repeat;
 	width: 40em;
 	height: 19em;
@@ -203,22 +208,22 @@ body {
 #secondblock {
 	background: url(../images/secondblock/background.png) no-repeat;
 	background-size: 100% 100%;
-	height: 40em;
+	height: 26%;
 }
 
 #secondblock .textsecondblock {
 	width: 30em;
-	margin-top: 15.6em;
+	margin-top: 21%;
 	height: 8em;
 }
 
 #secondblock .textsecondblock h1 {
 	font-size: 26px;
-	padding-left: 2.3em;
+	padding-left: 12%;
 }
 
 #secondblock .textsecondblock p {
-	padding-left: 4.1em;
+	padding-left: 12%;
 	font-family: roboto;
 	font-size: 14.5px;
 	line-height: 1.8;
@@ -229,7 +234,7 @@ body {
 #thirdblock {
 	width: 100%;
 	position: absolute;
-	margin-top: 5.5em;
+	margin-top: 10em;
 	margin-left: -20px;
 }
 
