@@ -13,18 +13,19 @@
 	font-family: police;
 	src: url(../police/DINNextLTPro-MediumCond.otf);
 }
+
 html {
 	position: relative;
 	font-family: police;
 	background: 100% 100% #c8cfdc;
 }
 
-body{
+body {
 	padding: 20px;
-	margin: 50px;
-	background: #fff;
 	position: relative;
-	height: 180em;
+	height: 167em;
+	margin: 50px;
+	background: #fff;;;
 }
 
 /* FIRSTBLOCK */
@@ -161,6 +162,8 @@ body{
     width: 6.5em;
 }
 
+/* SECOND BLOCK */
+
 #secondblock {
 	color: white;
 	width: 100%;
@@ -193,6 +196,8 @@ body{
 	line-height: 1.8;
 }
 
+/* THIRD BLOCK */
+
 #thirdblock {
 	width: 100%;
 	position: absolute;
@@ -210,7 +215,7 @@ body{
 #thirdblock .textthirdblockleft {
 	width: 26em;
 	height: 41em;
-	padding-left: 2.5em;
+	padding-left: 3.5em;
 	padding-top: 4.6em;;;
 }
 
@@ -253,7 +258,7 @@ body{
 	right: 3em;
 	border: 4px solid #e4e4e4;
 	height: 27em;	
-	width: 17em;
+	width: 19em;
 }
 
 #thirdblock .shopright {
@@ -326,13 +331,58 @@ body{
 	wid: ;
 }
 
+/* FOURTH BLOCK */
+
 #fourthblock {
-		position: absolute;
-		top: 154em;
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
+	position: absolute;
+	top: 133.5em;
+	width: 97%;
+	height: 38em
+}
+
+#fourthblock #textabove{
+	padding: 2em 0em 0em 2em;;
+}
+
+#fourthblock #textabove p {
+	margin-bottom: 0;
+}
+
+#fourthblock #textabove h1 {
+	margin-top: 0;
+}
+
+	/* SWIPER */
+
+.swiper-container {
+        width: 99%;
+        height: 300px;
     }
+
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+	/* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide:nth-child(2n) {
+        width: 40%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 20%;
+    }
+
+    /* END SWIPER */

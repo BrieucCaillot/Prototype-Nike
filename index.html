@@ -14,13 +14,16 @@
         <link rel="shortcut icon" href="images/firstbloc/header/logo.png">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="javascript/javascript.js">
-        <link rel="stylesheet" href="css/swiper.css">
+        <link rel="stylesheet" href="css/csswiper/swiper.min.css">
         <link rel="stylesheet" href="javascript/swiper.js">
 
         
         <title>Website Shoes</title>
     </head>
     <body>
+
+                <!-- FIRST BLOCK -->
+
         <div id="firstblock">
         	<div id="header">
         			<nav>
@@ -66,12 +69,16 @@
     		</div>
         </div>
 
+                <!-- SECOND BLOCK -->
+
         <div id="secondblock">
             <div class="textsecondblock">
                 <h1>CLASSIC CUSHIONING. MODERN COMFORT.</h1>
                 <p>The Nike Air Max Tavas SD Men's Shoe recalls the profile of<br> the iconic running original with a Max Air unit in the heel<br> and multi-surface Waffle outsole. A lightweight upper and<br> gradient detail offer a comfortable fit and dynamic look.</p>
             </div>
         </div>
+
+                <!-- THIRD BLOCK -->
 
         <div id="thirdblock">
             <div class="textthirdblockleft">
@@ -111,11 +118,44 @@
             </div>
         </div>
 
+                <!-- FOURTH BLOCK -->
+
         <div id="fourthblock">
-    
+            <div id="textabove">
+                <p>SOCIAL</p>
+                <h1>#NIKEAIRMAX</h1>
+            </div>
+                    
+                    <!-- SWIPER -->
 
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes1.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes2.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes3.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes4.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes1.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes2.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes3.png"></div>
+                    <div class="swiper-slide"><img src="images/fourthblock/shoes4.png"></div>
+                </div>
+            </div>  
 
+            <script src="javascript/jswiper/swiper.min.js"></script>
 
+            <script> 
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    slidesPerView: 4,
+                    paginationClickable: true,
+                    spaceBetween: 5,
+                    freeMode: true,
+                    loop: true,
+                    keyboardControl: true,
+                });
+            </script>
+
+                    <!-- END SWIPER -->
         </div>
 
     </body>	
