@@ -14,7 +14,7 @@
         <link rel="shortcut icon" href="images/firstblock/header/logo.png">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/csswiper/swiper.min.css">
-        
+        <script alt="JQuery Library" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <title>Nike Website</title>
     </head>
     <body>
@@ -37,7 +37,8 @@
         			</nav>
         	</div>
         	<div id="viewshoes"></div>
-    		<div id="container">
+    		
+            <div id="container">
                 <div id="wish"></div>
     			<div id="text">
     				<h2>NIKE</h2>
@@ -50,19 +51,30 @@
     			<div id="shoes2" onclick="change_shoes2()"></div>
                 <div id="shoes3" onclick="change_shoes3()"></div>
     			<p id="size">Size charts</p>
-    			
-    			<div class="dropdown">
-      				<button onclick="myFunction()" class="dropbtn">SIZE<img class="arrow" src="images/firstblock/container/arrow.png" style="padding-left: 5.2em; margin: -1em;"></button>
-      				<div id="myDropdown" class="dropdown-content">
-    				    <!--<a href="#">Link 1</a>
-    				    <a href="#">Link 2</a>
-    				    <a href="#">Link 3</a>-->
-      				</div>
-    			</div>
 
-    			<div class="cart">
-      				<button onclick="myFunction()" class="cartbtn">ADD TO CART</button>
-    			</div>
+                <div>
+                    <form class="dropdown">
+                        <select class="dropbtn">
+                            <option value="size">SIZE</option>
+                            <option value="size">38</option>
+                            <option value="size">39</option>
+                            <option value="size">40</option>
+                            <option value="size">41</option>
+                            <option value="size">42</option>
+                            <option value="size">43</option>
+                            <option value="size">44</option>
+                            <option value="size">45</option>
+                            <option value="size">46</option>
+                            <option value="size">47</option>
+                        </select>
+                    </form>
+    			
+
+        			<div class="cart">
+          				<button onclick="myFunction()" class="cartbtn">ADD TO CART</button>
+        			</div>
+
+                </div>
     		</div>
         </div>
 
@@ -100,17 +112,28 @@
                 <p>EN STOCK</p>
                 <p>$160.00</p>
 
-                <div class="dropdown2">
-                    <button onclick="myFunction()" class="dropbtn2">SIZE<img class="arrow" src="images/firstblock/container/arrow.png" style="padding-left: 5em; margin: -1em;"></button>
-                    <div id="myDropdown" class="dropdown-content">
-                        <!--<a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>-->
-                    </div>
-                </div>
+                <div>
+                    <form class="dropdown2">
+                        <select class="dropbtn2">
+                            <option value="size">SIZE</option>
+                            <option value="size">38</option>
+                            <option value="size">39</option>
+                            <option value="size">40</option>
+                            <option value="size">41</option>
+                            <option value="size">42</option>
+                            <option value="size">43</option>
+                            <option value="size">44</option>
+                            <option value="size">45</option>
+                            <option value="size">46</option>
+                            <option value="size">47</option>
+                        </select>
+                    </form>
+                
 
-                <div class="cart2">
-                    <button onclick="myFunction()" class="cartbtn2">ADD TO CART</button>
+                    <div class="cart2">
+                        <button onclick="myFunction()" class="cartbtn2">ADD TO CART</button>
+                    </div>
+
                 </div>
             </div>
         </div>

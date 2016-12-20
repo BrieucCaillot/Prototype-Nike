@@ -142,6 +142,7 @@ body {
 	width: 5em;
 	height: 6em;
 	margin-top: 0.75em;
+	margin-bottom: 2em;
 }
 
 #firstblock #container #shoes2 {
@@ -164,25 +165,34 @@ body {
 
 #firstblock #container #size {
 	position: absolute;
-	top: 27.5em;
+	top: 27em;
 	font-family: roboto;
 	font-size: 12px;
 	color: #7e7e7e;
 	opacity: 0.5;
 }
 
-.dropdown .dropbtn {
-	position: absolute;
-	top: 20.4em;
-	font-family: police;
-    background-color: #fff;
-    color: #7E7E7E;
-    border: 1px solid #e4e4e4;
-    padding: 16px;
-    font-size: 18px;
-    width: 7em;
-    padding-right: 4em;
+.dropdown {
+	border: 2px solid #e4e4e4;
+	width: 8em;
+
 }
+
+.dropdown .dropbtn {
+    -moz-appearance: none;
+    width: 8em;
+    font-size: .7em;
+    background: transparent url("../images/firstblock/container/arrow.png") no-repeat;
+    font-family: police;
+    font-size: 16px;
+    -webkit-appearance: none;
+    border: none;
+    height: 3.1em;
+    color: #7e7e7e;
+    background-position: 90% 50%;
+    padding: 0.88em;;
+}
+
 
 .dropdown .dropbtn:hover {
 	color: #0089cf;
@@ -190,15 +200,16 @@ body {
 
 .cart .cartbtn {
 	position: absolute;
-	top: 20.4em;
-	left: 7.6em;
+	top: 22.89em;
+	left: 9em;
 	font-family: police;
     background-color: #000000;
     color: #fff;
-    border: 1px solid #e4e4e4;
-    padding: 16px;
-    font-size: 18px;
-    width: 6.5em;
+    border: none;
+    padding: 18px;;;
+    font-size: 16px;
+    width: 7.5em;
+	height: 3.2em;;
 }
 
 .cart .cartbtn:hover {
@@ -307,6 +318,7 @@ body {
 	background: url(../images/thirdblock/shoesbox.png) no-repeat;
 	background-size: 87%;
 	background-position: center;
+	background-color: #fff;
 }
 
 #thirdblock	.shopright h1 {
@@ -330,33 +342,44 @@ body {
 
 #thirdblock	.shopright p:nth-child(4) {
 	color: #333333;
-	padding-top: 11.7em;
+	padding-top: 11.9em;
 	padding-left: 1.4em;
 	width: 50%;
 	margin: 0px;
+	font-size: 16px;
 }
 
 #thirdblock	.shopright p:nth-child(5) {
 	padding-top: -13em;
 	color: #333333;
-	padding-left: 13.3em;
+	padding-left: 11.4em;
 	position: absolute;
-	top: 18.8em;
+	top: 14.9em;
+	font-size: 20px;
+}
+
+.dropdown2 {
+	border: 2px solid #e4e4e4;
+	width: 8em;
+	margin: 0.79em 1em 1em 1.2em;
+
 }
 
 .dropdown2 .dropbtn2 {
-	position: absolute;
-	top: 20em;
-	font-family: police;
-    background-color: #fff;
-    color: #7E7E7E;
-    border: 1px solid #e4e4e4;
-    padding: 15px;
-    font-size: 18px;
-    width: 6.5em;
-    padding-right: 4em;
-	left: 1.2em;
+    -moz-appearance: none;
+    width: 8em;
+    font-size: .7em;
+    background: transparent url("../images/firstblock/container/arrow.png") no-repeat;
+    font-family: police;
+    font-size: 16px;
+    -webkit-appearance: none;
+    border: none;
+    height: 3em;
+    color: #7e7e7e;
+    padding: 0.88em;
+    background-position: 90% 50%;;
 }
+
 
 .dropdown2 .dropbtn2:hover {
 	color: #0089cf;
@@ -364,15 +387,16 @@ body {
 
 .cart2 .cartbtn2 {
 	position: absolute;
-	top: 20em;
+	top: 22.08em;
+	left: 10em;
 	font-family: police;
     background-color: #000000;
     color: #fff;
-    border: 1px solid #e4e4e4;
-    padding: 15px;
-    font-size: 18px;
-    width: 6em;
-	left: 8.2em;
+    border: none;
+    padding: 18px;;;
+    font-size: 16px;
+    width: 7.5em;
+	height: 3.2em;;
 }
 
 .cart2 .cartbtn2:hover {
