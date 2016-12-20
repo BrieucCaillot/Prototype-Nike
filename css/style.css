@@ -41,11 +41,15 @@ body {
 	background: url(../images/firstblock/header/logo.png) no-repeat;
 }
 
+#firstblock #header ul li a{
+	text-decoration: none;
+	color: #414141;
+}
+
 #firstblock #header ul{
 	float: left;
 	width: 100%;
 	margin-left: 10px;
-	color: #414141;
 }
 
 #firstblock #header ul li {
@@ -53,6 +57,8 @@ body {
 	float: left;
 	list-style-type: none;
 	margin: 0px 16px 0px 26px;
+	cursor: pointer;
+
 }
 
 #firstblock #header ul li:hover:nth-child(-n+5) {
