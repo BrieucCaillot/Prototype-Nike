@@ -312,6 +312,9 @@ body {
 }
 
 #thirdblock .shopright {
+	-webkit-transition: 3s;
+}
+#thirdblock .shopright {
 	position: absolute;
 	top: -704px;;
 	right: 3em;
@@ -320,6 +323,13 @@ body {
 	border: 4px solid #e4e4e4;
 	height: 27em;	
 	width: 19em;
+	-webkit-animation: shop 10s ease-in-out;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes shop {
+	from { top:-95% }
+	to { top: 17%;/*top:39.5%;*/}
 }
 
 #thirdblock .shopright {

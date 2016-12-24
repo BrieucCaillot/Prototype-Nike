@@ -13,9 +13,11 @@
 
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="images/firstblock/header/logo.png">
+        <link href="css/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/csswiper/swiper.min.css">
         <script alt="JQuery Library" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/zoombox.js"></script>
         <script type="text/javascript" src="javascript/scriptjquery.js"></script>
         <title>Nike Website</title>
     </head>
@@ -47,8 +49,17 @@
                                 <a href="http://store.nike.com/us/en_us/">EXCLUSIVE</a>
                             </li>
 
+                            <script type="text/javascript">
+                                $(function($){
+                                    $('.zoombox').zoombox({
+                                        autoplay: true,
+                                        theme: 'darkprettyphoto'
+                                    });
+                                });
+                            </script>
+
         					<li>
-                                <img id="some1" src="images/firstblock/header/some1.png" alt="some1">SIGN IN
+                                <img id="some1" src="images/firstblock/header/some1.png" alt="some1"><a class="zoombox" src="html/formulaire.html">SIGN IN</a>
                             </li>
 
                             <li>
