@@ -23,33 +23,38 @@ html {
 body {
 	padding: 20px;
 	position: relative;
-	height: 167em;
+	height: 164em;
 	margin: 50px;
-	background: #fff;;;
+	background: #fff;
 }
 
 /* FIRSTBLOCK */
 
 
 #firstblock {
-	height: 77em;
+	height: 44em;
+	background-color: #fff;
+	position: relative; 
+	z-index: 5;
 }
 
 #firstblock #header {
-	height: 40%;
+	height: 9%;
 	width: 100%;
 	background: url(../images/firstblock/header/logo.png) no-repeat;
+	position: relative;
+	z-index: 5;
 }
 
 #firstblock #header ul li a{
-	text-decoration: none;
 	color: #414141;
+	text-decoration: none;
 }
 
 #firstblock #header ul{
 	float: left;
-	width: 100%;
-	margin-left: 10px;
+	width: 97%;
+	margin-left: 7px;
 }
 
 #firstblock #header ul li {
@@ -82,15 +87,16 @@ body {
 }
 
 #firstblock #header ul li:nth-child(6) {
-	padding-right: 3em
+	padding-left: 10em;
 }
 
 #firstblock #container {
 	width: 20em;
 	height: 27em;
 	position: absolute;
-	top: 6.2%;
+	top: 20.2%;
 	right: 11%;
+	z-index: 4;;;;;
 }
 
 #firstblock #container #wish {
@@ -109,7 +115,7 @@ body {
 
 #firstblock #viewshoes {
 	position: absolute;
-	top: 10%;
+	top: 34%;
 	left: 11%;
 	background: url(../images/firstblock/container/viewshoes1.png) no-repeat;
 	background-size: 100% 100%;
@@ -122,6 +128,7 @@ body {
 	padding-top: 1em;
 	margin-top: 0;
 	margin-bottom: 4px;
+	font-size: 17px;
 }
 
 #firstblock #container #text p:nth-child(4) span {
@@ -156,7 +163,7 @@ body {
 	width: 5em;
 	height: 6em;
 	position: absolute;
-	top: 14.85em;
+	top: 15em;
 	left: 5.7em
 }
 
@@ -165,7 +172,7 @@ body {
 	width: 5em;
 	height: 6em;
 	position: absolute;
-	top: 14.89em;
+	top: 15em;
 	right: 3.66em;
 }
 
@@ -187,18 +194,16 @@ body {
 .dropdown .dropbtn {
     -moz-appearance: none;
     width: 8em;
-    font-size: .7em;
     background: transparent url("../images/firstblock/container/arrow.png") no-repeat;
     font-family: police;
-    font-size: 16px;
     -webkit-appearance: none;
     border: none;
     height: 3.1em;
     color: #7e7e7e;
     background-position: 90% 50%;
-    padding: 0.88em;;
+    padding: 0.88em;
+    font-size: 16px;;
 }
-
 
 .dropdown .dropbtn:hover {
 	color: #0089cf;
@@ -206,7 +211,7 @@ body {
 
 .cart .cartbtn {
 	position: absolute;
-	top: 22.89em;
+	top: 23.1em;
 	left: 9em;
 	font-family: police;
     background-color: #000000;
@@ -230,12 +235,14 @@ body {
 	margin-top: -34em;
 	position: absolute;
 	left: 0px;
+	top: 79.3em;
 }
 
 #secondblock {
 	background: url(../images/secondblock/background.png) no-repeat;
 	background-size: 100% 100%;
 	height: 26%;
+	z-index: 3;;;;;;
 }
 
 #secondblock .textsecondblock {
@@ -261,13 +268,15 @@ body {
 #thirdblock {
 	width: 100%;
 	position: absolute;
-	margin-top: 10em;
 	margin-left: -20px;
+	top: 83.2em;
 }
 
 #thirdblock {
 	background: url(../images/thirdblock/shoes.png) no-repeat;
 	background-size: 100% 100%;
+	position: relatve;
+	z-index: 3;
 }
 
 
@@ -315,28 +324,17 @@ body {
 	-webkit-transition: 3s;
 }
 #thirdblock .shopright {
-	position: absolute;
-	top: -704px;;
-	right: 3em;
-	/*top: 8em;
-	right: 3em;*/
+	position: fixed;
+	top: 10.4em;
+	right: 6em;
 	border: 4px solid #e4e4e4;
 	height: 27em;	
 	width: 19em;
-	-webkit-animation: shop 10s ease-in-out;
-	-webkit-animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes shop {
-	from { top:-95% }
-	to { top: 17%;/*top:39.5%;*/}
-}
-
-#thirdblock .shopright {
 	background: url(../images/thirdblock/shoesbox.png) no-repeat;
 	background-color: #fff;
 	background-position: center;
 	background-size: 87%;
+	z-index: 4;
 }
 
 #thirdblock	.shopright h1 {
@@ -425,13 +423,15 @@ body {
 
 #fourthblock {
 	position: absolute;
-	top: 133.5em;
+	z-index: 3;
+	background-color: #fff;
+	top: 128.8em;
 	width: 97%;
-	height: 38em
+	height: 37.7em;
 }
 
 #fourthblock #textabove{
-	padding: 2em 0em 0em 2em;;
+	padding: 4em 0em 0em 2em;;
 }
 
 #fourthblock #textabove p {

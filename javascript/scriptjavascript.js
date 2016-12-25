@@ -21,3 +21,17 @@ function change_shoes3() {
                 image.style.maxheight = "22em";
                 image.style.backgroundSize = "100% 100%";
             }
+
+/* formulaire */
+
+function male() {
+    var gender = document.getElementById('male');
+    gender.style.border = "1px solid black";
+    gender.style.padding = "1em 0em 0em 4.9em";
+}
+
+function female() {
+    var gender = document.getElementById('female');
+    gender.style.border = "1px solid black";
+    gender.style.padding = "1em 0em 0em 4.9em";
+}

@@ -28,7 +28,7 @@ $(window).scroll(function(){
 			});
 		}
 	});
-*/
+
 
 function isElementInViewport(elem) {
     var $elem = $(elem);
@@ -66,7 +66,7 @@ $(window).scroll(function(){
 
 
 });
-
+*/
 
 
 
