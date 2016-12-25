@@ -18,6 +18,15 @@ Website prototype
 
 <i class="icon-folder-open"> ***Make sure to checkout my [other projects][1].***
 
+<i class="icon-cog"> How to check it out :
+-------------
+> **There are two methods:**
+
+> - Clone via terminal.
+> - Download it via github.
+
+You can check them out [here][3]. 
+	
   [1]: https://github.com/BrieucKyo
   [2]: https://github.com/BrieucKyo?tab=repositories
-  
+  [3]: https://help.github.com/articles/cloning-a-repository/
