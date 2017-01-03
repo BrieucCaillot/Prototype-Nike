@@ -12,7 +12,7 @@ Website prototype
 > **Note:**
 
 > - The website is designed by someone else.
-> - Made with **html - css - javascript - jquery**.
+> - Made with ![Language](https://img.shields.io/badge/Language-HTML-e44b23.svg) ![Language](https://img.shields.io/badge/Language-CSS-563d7c.svg) ![Language](https://img.shields.io/badge/Language-Javascript-f1e05a.svg).
 > - The repository only works on search engine (**Google Chrome** is recommended for a better experience).
 
 
