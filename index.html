@@ -64,7 +64,7 @@
                             </li>
 
                             <li>
-                                <img id="cart" src="images/firstblock/header/cart.png" alt="cart">CART <span id="span">(2)</span>
+                                <img id="cart" src="images/firstblock/header/cart.png" alt="cart">CART <font color="#0089cf">(<span id="nbproduct" onclick="addcart">0</span>)</font>
                             </li>
 
                             <li>
@@ -79,14 +79,14 @@
                 <div id="wish"></div>
     			<div id="text">
     				<h2>NIKE</h2>
-    				<h1>AIR MAX TAVAS SD</h1>
-    				<p>$ 160.00</p>
+    				<h1 id="shoes">AIR MAX TAVAS SD</h1>
+    				<p id="price">$ 160.00</p>
     				<p>COLORS - <span>BLACK/PINK POW/TOUR YELLOW/WHITE</span></p>
     			</div>
 
-    			<div id="shoes1" onclick="change_shoes1()"></div>
-    			<div id="shoes2" onclick="change_shoes2()"></div>
-                <div id="shoes3" onclick="change_shoes3()"></div>
+    			<div id="shoes1" onclick="change_shoes1()" onclick="text()"></div>
+    			<div id="shoes2" onclick="change_shoes2()" onclick="text()"></div>
+                <div id="shoes3" onclick="change_shoes3()" onclick="text()"></div>
     			<p id="size">Size charts</p>
 
                 <div>
@@ -108,7 +108,7 @@
     			
 
         			<div class="cart">
-          				<button onclick="myFunction()" class="cartbtn">ADD TO CART</button>
+          				<button onclick="addcart()" id="cartbtn">ADD TO CART</button>
         			</div>
 
                 </div>
@@ -168,7 +168,7 @@
                 
 
                     <div class="cart2">
-                        <button onclick="myFunction()" class="cartbtn2">ADD TO CART</button>
+                        <button onclick="myFunction()" id="cartbtn2">ADD TO CART</button>
                     </div>
 
                 </div>

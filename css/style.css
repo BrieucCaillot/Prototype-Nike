@@ -8,7 +8,6 @@
 #notes            : Only working on search engine
 ============================================================================*/
 
-
 @font-face {
 	font-family: police;
 	src: url(../police/DINNextLTPro-MediumCond.otf);
@@ -76,6 +75,10 @@ body {
 	padding-bottom: 2%;
 }
 
+#firstblock #header ul li:hover {
+	color: #0089cf;
+}
+
 #firstblock #header ul li #span {
 	color: #0089cf;
 }
@@ -84,21 +87,23 @@ body {
 	color: #414141;
 }
 
-#firstblock #header ul li:hover:nth-child(n+4) {
+#firstblock #header #nbproduct {
 	color: #0089cf;
+}
+#firstblock #header ul :nth-child(n+6) {
+	float: right;
 }
 
 #firstblock #header ul li:nth-child(n+6) {
-	float: right;
-	text-align: left;
+	display: inline-block;
 }
 
 #firstblock #header ul li:nth-child(n+6) img {
 	padding-right: 7px;;
 }
 
-#firstblock #header ul li:nth-child(6) {
-	padding-left: 10em;
+#firstblock #header #loupe {
+	color: red;
 }
 
 #firstblock #container {
@@ -220,7 +225,7 @@ body {
 	color: #0089cf;
 }
 
-.cart .cartbtn {
+.cart #cartbtn {
 	position: absolute;
 	top: 23.1em;
 	left: 9em;
@@ -234,7 +239,7 @@ body {
 	height: 3.2em;;
 }
 
-.cart .cartbtn:hover {
+.cart #cartbtn:hover {
 	color: #0089cf;
 }
 
@@ -412,7 +417,7 @@ body {
 	color: #0089cf;
 }
 
-.cart2 .cartbtn2 {
+.cart2 #cartbtn2 {
 	position: absolute;
 	top: 22.08em;
 	left: 10em;
@@ -426,7 +431,7 @@ body {
 	height: 3.2em;;
 }
 
-.cart2 .cartbtn2:hover {
+.cart2 #cartbtn2:hover {
 	color: #0089cf;
 }
 
