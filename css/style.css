@@ -182,20 +182,27 @@ width: 300px;
 
 #firstblock #container #wish {
 	background: url(../images/firstblock/container/wish.png) no-repeat;
-	background-size: 100% 100%;
 	width: 3.5em;
 	height: 3.5em; 
+	display: block;
 }
 
-#firstblock #container #wish:hover {
+#firstblock #container #wish-liked {
 	background: url(../images/firstblock/container/wishhover.png) no-repeat;
-	background-size: 100% 100%;
 	width: 3.5em;
-	height: 3.5em;
+	height: 3.5em; 
+	display: none;
 }
 
 #firstblock #container #wish:hover, .heart:focus, .heart:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 0px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+}
+
+#firstblock #container #wish-liked:hover, .heart:focus, .heart:active {
+  box-shadow: 0 10px 0px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transition-duration: 0.4s;
   transform: scale(1.1);

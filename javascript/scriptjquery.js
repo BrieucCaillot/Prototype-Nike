@@ -1,13 +1,19 @@
 $(document).ready(function() {
 
-	$('#wish').click(function() {
-		if ($(this).addClass('liked')) {
-			$(this).css('background', 'url(images/firstblock/container/wishhover.png) no-repeat');
-		} else {
-			$(this).hasClass('liked');
-			$(this).removeClass('liked');
-			$(this).css('background', 'url(images/firstblock/container/wish.png) no-repeat');
-		}});
+	$(document).ready(function(){
+			$("#wish").click(function(){
+				$("#wish-liked").css("display", "block");
+				$("#wish").css("display", "none");
+			});
+	});
+
+	$(document).ready(function(){
+			$("#wish-liked").click(function(){
+				$("#wish").css("display", "block");
+				$("#wish-liked").css("display", "none");
+			});
+	});
+
 });
 
 

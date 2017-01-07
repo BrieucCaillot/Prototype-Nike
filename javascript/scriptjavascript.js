@@ -26,7 +26,7 @@ function change_shoes1() {
 
 function change_shoes2() {
 
-                var nameshoes = document.getElementById('shoes').innerHTML='AIR MAX TAVAS SD RAINBOW';
+                var nameshoes = document.getElementById('shoes').innerHTML='AIR MAX RAINBOW';
                 var money = document.getElementById('price').innerHTML='$ 165.00';
                 
                 var image = document.getElementById('viewshoes');
@@ -35,7 +35,7 @@ function change_shoes2() {
                 image.style.height = "19em";
                 image.style.backgroundSize = "100% 100%";
 
-                var nameshoes2 = document.getElementById('shopshoes2').innerHTML= 'AIR TAVAS SD RAINBOW';
+                var nameshoes2 = document.getElementById('shopshoes2').innerHTML= 'AIR MAX RAINBOW';
                 var money2 = document.getElementById('shopprice2').innerHTML='$ 165.00';
 
                 var imageshop = document.getElementById('shopright');
@@ -59,7 +59,7 @@ function change_shoes3() {
                 image.style.maxheight = "22em";
                 image.style.backgroundSize = "100% 100%";
 
-                var nameshoes2 = document.getElementById('shopshoes2').innerHTML= 'AIR TAVAS SD CLEAN GREEN';
+                var nameshoes2 = document.getElementById('shopshoes2').innerHTML= 'AIR MAX CLEAN GREEN';
                 var money2 = document.getElementById('shopprice2').innerHTML='$ 180.00';
 
                 var imageshop = document.getElementById('shopright');
@@ -93,14 +93,6 @@ function female() {
     gender.style.border = "1px solid black";
     gender.style.padding = "1em 0em 0em 4.9em";
 }
-
-/* LIKE BUTTON */
-
-/*function wish() {
-    var like = document.getElementById('wish');
-    like.style.backgroundImage = "url('images/firstblock/container/wishhover.png')";
-}
-*/
 
 function wish() {
     var like = document.getElementById('wish').className += 'liked';
