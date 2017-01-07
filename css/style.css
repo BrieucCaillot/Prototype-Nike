@@ -90,6 +90,7 @@ body {
 #firstblock #header #nbproduct {
 	color: #0089cf;
 }
+
 #firstblock #header ul :nth-child(n+6) {
 	float: right;
 }
@@ -100,6 +101,10 @@ body {
 
 #firstblock #header ul li:nth-child(n+6) img {
 	padding-right: 7px;;
+}
+
+#firstblock #header .container-2:hover {
+	color: white;
 }
 
 #firstblock #header .container-2{
@@ -182,7 +187,7 @@ width: 300px;
 	background: url(../images/firstblock/container/wish.png) no-repeat;
 	background-size: 100% 100%;
 	width: 3em;
-	height: 3em;
+	height: 3em; 
 }
 
 #firstblock #container #wish:hover {
@@ -357,7 +362,6 @@ width: 300px;
 	position: relatve;
 	z-index: 3;
 }
-
 
 #thirdblock .textthirdblockleft {
 	width: 26em;
@@ -556,4 +560,8 @@ width: 300px;
         width: 20%;
     }
 
+
     /* END SWIPER */
+    #firstblock #header .container:hover {
+	color: red;
+    }
