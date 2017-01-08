@@ -80,24 +80,6 @@ function addcart() {
             var span = document.getElementById('nbproduct').innerHTML= nbproduct ++;
             }
 
-/* FORM */
-
-function male() {
-    var gender = document.getElementById('male');
-    gender.style.border = "1px solid black";
-    gender.style.padding = "1em 0em 0em 4.9em";
-}
-
-function female() {
-    var gender = document.getElementById('female');
-    gender.style.border = "1px solid black";
-    gender.style.padding = "1em 0em 0em 4.9em";
-}
-
-function wish() {
-    var like = document.getElementById('wish').className += 'liked';
-}
-
 /* Shopright */
 
 var body = document.getElementsByTagName("body");
