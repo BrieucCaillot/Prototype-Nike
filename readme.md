@@ -10,7 +10,6 @@ Informations :
 
 > **Note:**
 
-> - The website has been designed by me, thought i was inspired by others websites.
 > - Made with ![Language](https://img.shields.io/badge/Language-HTML-e44b23.svg) ![Language](https://img.shields.io/badge/Language-CSS-563d7c.svg) ![Language](https://img.shields.io/badge/Language-Javascript-f1e05a.svg) ![Language](https://img.shields.io/badge/Language-Jquery-orange.svg).
 > - The repository only works on search engine (**Google Chrome** is recommended for a better experience).
 
