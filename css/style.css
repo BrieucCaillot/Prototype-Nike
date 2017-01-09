@@ -457,9 +457,6 @@ width: 300px;
 }
 
 #thirdblock #shopright {
-	-webkit-transition: 3s;
-}
-#thirdblock #shopright {
 	position: absolute;
 	top: -560px;
 	right: 6em;
