@@ -1,11 +1,3 @@
-/* ADD TO CART */
-
-/*var nbproduct = document.getElementById('nbproduct').innerHTML = 0;
-
-function addcart() {
-            var span = document.getElementById('nbproduct').innerHTML= nbproduct ++;
-            }*/
-
 /* Shopright */
 
 var body = document.getElementsByTagName("body");

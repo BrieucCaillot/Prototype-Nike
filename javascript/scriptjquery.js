@@ -62,14 +62,10 @@ $(document).ready(function() {
 
 /* CART BUTTON */
 
+			var counter = 0;
+
 			$('#cartbtn').click(function(){
-			var plusone = $('nbproduct').data('0');
-			$('nbproduct').data(plusone++);
+				$('#nbproduct').html(counter ++);
+			});
 
 });
-
-
-
-
-
-
