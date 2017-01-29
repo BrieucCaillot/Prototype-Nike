@@ -14,7 +14,7 @@ Informations :
 > - The repository only works on search engine (**Google Chrome** is recommended for a better experience).
 
 
-<i class="icon-folder-open"> Make sure to checkout my [other projects][1].
+Make sure to checkout my [other projects][1].
 
 How to download :
 -------------
